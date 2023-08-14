@@ -1,0 +1,693 @@
+
+#Home-section{
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    top: 120%;
+}
+#Home-section .section-1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.sect1{
+    position: sticky;
+    height: 25%;
+    width: 100%;
+    top: 50%;
+    z-index: 3;
+    background-color: rgba(240, 128, 128, 0.781);
+    margin-bottom: 60px;
+}
+.sect11{
+    position: absolute;
+    height: 100%;
+    float: left;
+    width: 50%;
+    background-color: yellowgreen;
+    border-right: brown 5px solid;
+    border-bottom: brown 5px solid;
+    border-bottom-right-radius: 200px;
+}
+#Home-section .section-1 .heading1{
+    position: absolute;
+    height: 50px;
+    font-family: 'Crimson Text', serif;
+    top: -50px;
+    width: 430px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 5px;
+    background-color: chartreuse;
+}
+#Home-section .section-1 .heading1 h3{
+    font-size: 50px;
+    left: 10px;
+    top:-8px;
+    position: absolute;
+    text-transform: uppercase;
+}
+#Home-section .section-1 .sect1 p{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    padding-bottom: 20px;
+    border-left: 10px solid darkblue;
+    top: 20px;
+    left: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#Home-section .section-1 .sect1 .sect12{
+    position: absolute;
+    background-color: rgba(240, 128, 128, 0.781);
+    background-blend-mode: darken;
+    background-image: url(pics/Intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+}
+.sect2{
+    position: sticky;
+    height: 25%;
+    width: 100%;
+    top: 52%;
+    z-index: 4;
+    right: 0;
+    background-color: lightskyblue;
+}
+.sect21{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    background-color: yellowgreen;
+    border-left: brown 5px solid;
+    border-bottom: brown 5px solid;
+    border-bottom-left-radius: 200px;
+}
+#Home-section .section-1 .sect2 ul li{
+    list-style-type: none;
+}
+#Home-section .section-1 .sect2 .heading2{
+    position: absolute;
+    height: 50px;
+    font-family: 'Crimson Text', serif;
+    top: -50px;
+    width: 430px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 30px;
+    background-color: chartreuse;
+    right: 0;
+    text-align: right;
+}
+#Home-section .section-1 .sect2 .heading2 h3{
+    font-size: 50px;
+    right: 10px;
+    top:-8px;
+    position: absolute;
+    text-transform: uppercase;
+}
+#Home-section .section-1 .sect2 p,
+#Home-section .section-1 .sect2 ul{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    padding-bottom: 20px;
+    border-right: 10px solid darkblue;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 30px;
+}
+#Home-section .section-1 .sect2 .sect22{
+    position: absolute;
+    background-color: lightskyblue;
+    background-blend-mode: lighten;
+    background-image: url(pics/What.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    width: 50%;
+    height: 100%;
+}
+
+
+#section31{
+    position:absolute;
+    margin-top: 315%;
+    height: 350vh;
+    width: 100%;
+    z-index: 16;
+    background-image: linear-gradient(to bottom, rgb(180, 21, 180), rgb(214, 44, 129));
+}
+
+.section-top{
+    position:sticky;
+    position:-webkit-sticky;
+    top: 0;
+    margin: 0;
+    height: 80px;
+    z-index: 16;
+    width: 100%;
+    background-color: rgb(48, 3, 85);
+}
+
+.collection{
+    position:sticky;
+    position:-webkit-sticky;
+    top: 20vh;
+    margin-top: 200px;
+    height: 100px;
+    z-index: 16;
+    width: 30%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-image: linear-gradient(to bottom, rgb(21, 180, 180), rgb(147, 207, 26));
+}
+
+.collection p{
+    position: absolute;
+    font-size: 50px;
+    left: 120px;
+    top: 20px;
+    color: rgb(32, 95, 95);
+}
+
+.coolean{
+    position:sticky;
+    position:-webkit-sticky;
+    border-top: 6px solid darkslategrey;
+    top: 45vh;
+    z-index: 16;
+    margin-top: 500px;
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, teal, yellowgreen);
+}
+.coolean .boot-1{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    border: 1px solid;
+    z-index: 16;
+    left: 5%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean .boot-1 .boot1-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 5%;
+    z-index: 16;
+    height: 70%;
+    background-image:url(pics/boot1.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean .boot-1 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    z-index: 17;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean .boot-1 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean .boot-1 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: red;
+    border: 4px solid;
+    z-index: 16;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean .boot-1 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean .boot-1 .buy-button:hover{
+    opacity: 1;
+}
+.coolean .boot-2{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    z-index: 16;
+    border: 1px solid;
+    left: 28.75%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean .boot-2 .boot2-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    z-index: 16;
+    top: 5%;
+    height: 70%;
+    background-image:url(pics/boot2.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean .boot-2 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 17;
+    border: 6px dashed red;
+    opacity: 0;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean .boot-2 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean .boot-2 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean .boot-2 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean .boot-2 .buy-button:hover{
+    opacity: 1;
+}
+
+.coolean .boot-3{
+    position:absolute;
+    height: 80%;
+    z-index: 16;
+    width: 18.75%;
+    border: 1px solid;
+    left: 52.5%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean .boot-3 .boot3-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 5%;
+    height: 70%;
+    z-index: 16;
+    background-image:url(pics/boot3.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean .boot-3 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    z-index: 17;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean .boot-3 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean .boot-3 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    z-index: 16;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean .boot-3 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean .boot-3 .buy-button:hover{
+    opacity: 1;
+}
+
+.coolean .boot-4{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    z-index: 16;
+    border: 1px solid;
+    left: 76.25%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean .boot-4 .boot4-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 5%;
+    z-index: 17;
+    height: 70%;
+    background-image:url(pics/boot4.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean .boot-4 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    z-index: 17;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean .boot-4 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 30px;
+    z-index: 16;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean .boot-4 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    z-index: 16;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean .boot-4 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean .boot-4 .buy-button:hover{
+    opacity: 1;
+}
+
+
+.coolean1{
+    position:sticky;
+    position:-webkit-sticky;
+    top: 98vh;
+    z-index: 16;
+    margin-top: 400px;
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, teal, yellowgreen);
+}
+.coolean1 .boot-1{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    z-index: 16;
+    border: 1px solid;
+    left: 5%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean1 .boot-1 .boot1-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    z-index: 16;
+    top: 5%;
+    height: 70%;
+    background-image:url(pics/boot5.gif);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean1 .boot-1 .buy-button{
+    height: 100%;
+    width: 100%;
+    z-index: 17;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean1 .boot-1 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean1 .boot-1 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    z-index: 16;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean1 .boot-1 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean1 .boot-1 .buy-button:hover{
+    opacity: 1;
+}
+.coolean1 .boot-2{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    z-index: 16;
+    border: 1px solid;
+    left: 28.75%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean1 .boot-2 .boot2-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    z-index: 16;
+    top: 5%;
+    height: 70%;
+    background-image:url(pics/boot6.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean1 .boot-2 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 17;
+    border: 6px dashed red;
+    opacity: 0;
+    position: absolute;
+    background-color: lightgray;
+}
+.coolean1 .boot-2 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean1 .boot-2 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    z-index: 16;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean1 .boot-2 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean1 .boot-2 .buy-button:hover{
+    opacity: 1;
+}
+
+.coolean1 .boot-3{
+    position:absolute;
+    height: 80%;
+    width: 18.75%;
+    border: 1px solid;
+    z-index: 16;
+    left: 52.5%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean1 .boot-3 .boot3-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 5%;
+    z-index: 16;
+    height: 70%;
+    background-image:url(pics/boot7.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean1 .boot-3 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    position: absolute;
+    z-index: 17;
+    background-color: lightgray;
+}
+.coolean1 .boot-3 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean1 .boot-3 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: red;
+    border: 4px solid;
+    z-index: 16;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean1 .boot-3 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean1 .boot-3 .buy-button:hover{
+    opacity: 1;
+}
+
+.coolean1 .boot-4{
+    position:absolute;
+    height: 80%;
+    z-index: 16;
+    width: 18.75%;
+    border: 1px solid;
+    left: 76.25%;
+    top: 10%;
+    background:rgb(21, 180, 180);
+}
+.coolean1 .boot-4 .boot4-img{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 5%;
+    z-index: 16;
+    height: 70%;
+    background-image:url(pics/boot8.jpg);
+    background-size: cover;
+    background-color: seagreen;
+    background-position: center;
+}
+.coolean1 .boot-4 .buy-button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: 6px dashed red;
+    opacity: 0;
+    position: absolute;
+    background-color: lightgray;
+    z-index: 17;
+}
+.coolean1 .boot-4 .buy-button p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 16;
+    font-size: 30px;
+    font-weight:bolder;
+    color: rgb(63, 59, 59);
+}
+.coolean1 .boot-4 .buy-button span{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    z-index: 16;
+    background-color: red;
+    border: 4px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    height: 40px;
+    width: 90px;
+}
+.coolean1 .boot-4 .buy-button span:hover{
+    background-color: rgb(179, 21, 21);
+    color: chartreuse;
+}
+.coolean1 .boot-4 .buy-button:hover{
+    opacity: 1;
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="css4.css">
+    <link rel="stylesheet" href="css5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Armata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="home">
+    <div class="header">
+        <div class="logo">
+            <img src="pics/Logo.gif" alt="" id='Logo'>
+            <img src="pics/Logo.png" alt="" id='logo'>
+        </div>
+
+        <label for="home" id="bars">
+            <i class='fa fa-navicon' id='bar'></i>
+            <i class='fa fa-remove' id='remove'></i>
+        </label>
+    </div>
+
+    <input type="radio" name="menus" id="homes" class='hid' onclick="scrollWin(1)">
+    <input type="radio" name="menus" id="collection" class='hid' onclick="scrollWin(2)">
+    <input type="radio" name="menus" id="account" class='hid'>
+    <input type="radio" name="menus" id="contact" class='hid'>
+    <div class="side-bar">
+        <nav>
+            <ul>
+                <label for="homes">
+                    <li id='homes1'><i class='fa fa-home'></i> Home</li>
+                </label>
+                <label for="collection">
+                    <li id='Collection'><i class='fa fa-th'></i><div class="coolse">Collections</div></li>
+                </label>
+                <label for="account">
+                    <li id='account1'><div id='small-icon-1'></div><div class="acc">Account</div> </li>
+                </label>
+                <label for="contact">
+                    <li id='contact1'><div id='small-icon-2'></div> <div class='con'>Contact</div></li>
+                </label>
+                <div class="animations"></div>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="account-page">
+        <form action="">
+            <div class="img"></div>
+            <input type="text" id='Name' placeholder=" NAME">
+            <br>
+            <input type="text" id='Email' placeholder=" EMAIL">
+            <br>
+            <input type="text" id='Phone' placeholder=" PHONE">
+            <br>
+            <label id='gender'>Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="gender-m"><label id='gender-m-l' for="gender-m"><i class='fa fa-mars'></i> Male</label>
+            <input type="radio" name="gender" id="gender-f"><label id='gender-f-l' for="gender-f"><i class='fa fa-venus'></i> Female</label>
+            <br>
+            <input type="password" id="password" placeholder="PASSWORD">
+            <input type="submit" value="SUBMIT" id='submit'>
+        </form>
+    </div>
+
+    <div class="background">
+        <figure>
+            <div class="slide1">
+                <img src="pics/background/Background1.jpg" alt="">
+            </div>
+            <div class="slide2">
+                <img src="pics/background/Background2.jpg" alt="">
+            </div>
+            <div class="slide3">
+                <img src="pics/background/Background3.jpg" alt="">
+            </div>
+            <div class="slide4">
+                <img src="pics/background/Background4.jpg" alt="">
+            </div>
+            <div class="slide5">
+                <img src="pics/background/Background5.jpg" alt="">
+            </div>
+            <div class="slide6">
+                <img src="pics/background/Background6.jpg" alt="">
+            </div>
+        </figure>
+    </div>
+
+    <div class="animation-box">
+        <div class="text-box"><b>S</b>o what are you waiting for<b>?</b></div>
+        <div class="text-box-lase">place your order right now</div>
+        <div class="line-box"></div>
+        <div class="triangle-box"></div>
+        <div class="square-box"></div>
+    </div>
+
+    <div class="text-booox">
+        <div class="booox"></div>
+        <div class="tooop"></div>
+        <div class="teoo1"><b>D</b>esirable and <b>L</b>ightweight</div> 
+        <div class="teoo2">makes you feel like flying</div> 
+    </div>
+
+    <div class="text1">
+        <div class="text-box1">
+            <div class="text11"><b>Available</b></div>
+            <div class="text12">in wide range of colors</div>
+        </div>
+        <div class="text-box2">
+            <div class="text13"><b>Extra</b> Strong</div>
+            <div class="text14">for you to <b>Wear</b></div>
+        </div>
+        <div class="box12"></div>
+        <div class="box21"></div>
+        <div class="box22"></div>
+
+        
+        <div class="creative1"></div>
+        <div class="creative"></div>
+        <div class="box13"></div>
+    </div>
+
+    <div class="text-pink">
+        <div class="circle">
+            <div class="text41"><b>S</b>tylish and <b>T</b><span>rendy</span></div>
+            <div class="text42">designs that will blow your mind</div>
+        </div>
+    </div>
+
+    <div class="fir">
+        <div class="sec"></div>
+        <div id='fir'><b>D</b>urable</div>
+        <div class="fir1">take it wherever you want</div>
+    </div>
+
+    <div class="text3">
+        <div class="box3"></div>
+        <div class="top3"></div>
+        <div class="side3"></div>
+        <div class="bottom3"></div>
+        <div class="side33"></div>
+        <div class="te13"><b>So C</b>omfortable</div> 
+        <div class="te23">feel like your own skin</div> 
+    </div>
+
+    <div id="Home-section">
+        <div class="section-1">
+            <div class="sect1">
+                <div class="sect12"></div>
+                <div class="sect11">
+                    <div class="heading1"><h3>Introduction</h3></div>
+                    <p>
+                        We are the worlds best quality shoes supplying coorporation, providing the best we can to 
+                        make the bestest of the best quality affordable and accessible to the world...
+                    </p>
+                </div>
+            </div>
+            <div class="sect2">
+                <div class="sect22"></div>
+                <div class="sect21">
+                    <div class="heading2"><h3>What's New</h3></div>
+                    <p>
+                        <ul>
+                            <li>
+                                <b>Strong laces</b> to prevent coming undone
+                            </li>
+                            <li>
+                                <b>Archilles flex notch</b> prevents irritation and improves mobility 
+                            </li>
+                            <li>
+                                <b>100% Rubber sole</b> for fast stops and starts
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cos4">
+        <div class="cos"></div>
+        <div class="cos2"></div>
+        <div class="cos3"></div>
+        <div class="bub1"></div>
+        <div class="bub2"></div>
+        <div class="bub3"></div>
+        <div class="costumers">
+            <p>Costumers reviews</p>
+            <div class="side-bar1"></div>
+            <div class="top-bar1"></div>
+            <div class="background1"></div>
+        </div>
+        <div class="man1">
+            <div class="back1"></div>
+            <div class="pic">
+                <div class="img"></div>
+                <p>
+                    <b>Aman Banerjee</b><br>
+                    Currently: Web Developer
+                </p>
+            </div>
+            <div class="feed">
+                <p>
+                    The quality is very good. <br>
+                    I love to wear these shoes
+                </p>
+            </div>
+        </div>
+        <div class="man2">
+            <div class="back1"></div>
+            <div class="pic">
+                <div class="img"></div>
+                <p>
+                    <b>Seema kaur</b><br>
+                    Currently: Fashion designer
+                </p>
+            </div>
+            <div class="feed">
+                <p>
+                    The quality is very good.
+                </p>
+            </div>
+        </div>
+        <div class="man3">
+            <div class="back1"></div>
+            <div class="pic">
+                <div class="img"></div>
+                <p>
+                    <b>Amar Tomar</b><br>
+                    Currently: Civil Engineer
+                </p>
+            </div>
+            <div class="feed">
+                <p>
+                    The quality is very good.
+                </p>
+            </div>
+        </div>
+        <div class="man4">
+            <div class="back1"></div>
+            <div class="pic">
+                <div class="img"></div>
+                <p>
+                    <b>Ashish Bhardwaj</b><br>
+                    Currently: Social Worker
+                </p>
+            </div>
+            <div class="feed">
+                <p>
+                    The quality is very good.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="section31">
+        <div class="section-top"></div>
+        <div class="collection">
+            <p>Collections</p>
+        </div>
+        <div class="coolean">
+            <div class="boot-1">
+                <div class="boot1-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-2">
+                <div class="boot2-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-3">
+                <div class="boot3-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-4">
+                <div class="boot4-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="coolean1">
+            <div class="boot-1">
+                <div class="boot1-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-2">
+                <div class="boot2-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-3">
+                <div class="boot3-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+            <div class="boot-4">
+                <div class="boot4-img"></div>
+                <div class="buy-button">
+                    <p>Wanna buy!!!</p>
+                    <span>Buy</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <b class='b1'>T</b><p class='p1'>hank you for visiting by...</p>
+            <b class='b2'>Free Sole</b> <br>
+            <p class='p2'>4 East Executive Park <br>
+            Atlanta GA 30402 <br>
+            Tel.- 1022345543, 1234567654</p>
+        </div>
+    </div>
+    
+    <script>
+        function scrollWin(x){
+            if(x == 1){
+                window.scrollTo(0, 500);
+            }
+            else if(x == 2){
+                window.scrollTo(0, 5400);
+            }
+        }
+    </script>
+</body>
+</html>

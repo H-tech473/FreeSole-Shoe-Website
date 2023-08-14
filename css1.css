@@ -1,0 +1,657 @@
+@keyframes blend{
+    0%{
+        background-color:rgb(0, 255, 21);
+        background-blend-mode: darken;
+    }
+    50%{
+        background-color:rgb(0, 225, 255);
+        background-blend-mode: darken;
+    }
+    100%{
+        background-color:rgb(0, 255, 21);
+        background-blend-mode: darken;
+    }
+}
+@keyframes slide1{
+    0%{
+        left: -100%;
+        top: -100%;
+    }
+    12%{
+        left: -100%;
+        top: -100%;
+    }
+    16.67%{
+        left: 0;
+        top: -100%;
+    }
+    29%{
+        left: 0;
+        top: -100%;
+    }
+    33.34%{
+        left: 100%;
+        top:-100%;
+    }
+    46%{
+        left: 100%;
+        top:-100%;
+    }
+    50.01%{
+        left: 100%;
+        top: 0%;
+    }
+    62%{
+        left: 100%;
+        top: 0%;
+    }
+    66.68%{
+        left: 0%;
+        top: 0%;
+    }
+    79%{
+        left: 0%;
+        top: 0%;
+    }
+    83.35%{
+        left: -100%;
+        top: 0;
+    }
+    96%{
+        left: -100%;
+        top: 0;
+    }
+    100%{
+        left: -100%;
+        top: -100%;
+    }
+}
+@keyframes slide2{
+    0%{
+        left: 0;
+        top: -100%;
+    }
+    12%{
+        left: 0;
+        top: -100%;
+    }
+    16.67%{
+        left: 100%;
+        top:-100%;
+    }
+    29%{
+        left: 100%;
+        top:-100%;
+    }
+    33.34%{
+        left: 100%;
+        top: 0%;
+    }
+    46%{
+        left: 100%;
+        top: 0%;
+    }
+    50.01%{
+        left: 0%;
+        top: 0%;
+    }
+    62%{
+        left: 0%;
+        top: 0%;
+    }
+    66.68%{
+        left: -100%;
+        top: 0;
+    }
+    79%{
+        left: -100%;
+        top: 0;
+    }
+    83.35%{
+        left: -100%;
+        top: -100%;
+    }
+    96%{
+        left: -100%;
+        top: -100%;
+    }
+    100%{
+        left: 0;
+        top: -100%;
+    }
+}
+@keyframes slide3{
+    0%{
+        left: 100%;
+        top:-100%;
+    }
+    12%{
+        left: 100%;
+        top:-100%;
+    }
+    16.67%{
+        left: 100%;
+        top: 0%;
+    }
+    29%{
+        left: 100%;
+        top: 0%;
+    }
+    33.34%{
+        left: 0%;
+        top: 0%;
+    }
+    46%{
+        left: 0%;
+        top: 0%;
+    }
+    50.01%{
+        left: -100%;
+        top: 0%;
+    }
+    62%{
+        left: -100%;
+        top: 0%;
+    }
+    66.68%{
+        left: -100%;
+        top: -100%;
+    }
+    79%{
+        left: -100%;
+        top: -100%;
+    }
+    83.35%{
+        left: 0;
+        top: -100%;
+    }
+    96%{
+        left: 0;
+        top: -100%;
+    }
+    100%{
+        left: 100%;
+        top:-100%;
+    }
+}
+@keyframes slide4{
+    0%{
+        left: 100%;
+        top: 0%;
+    }
+    12%{
+        left: 100%;
+        top: 0%;
+    }
+    16.67%{
+        left: 0%;
+        top: 0%;
+    }
+    29%{
+        left: 0%;
+        top: 0%;
+    }
+    33.34%{
+        left: -100%;
+        top: 0;
+    }
+    46%{
+        left: -100%;
+        top: 0;
+    }
+    50.01%{
+        left: -100%;
+        top: -100%;
+    }
+    62%{
+        left: -100%;
+        top: -100%;
+    }
+    66.68%{
+        left: 0;
+        top: -100%;
+    }
+    79%{
+        left: 0;
+        top: -100%;
+    }
+    83.35%{
+        left: 100%;
+        top: -100%;
+    }
+    96%{
+        left: 100%;
+        top: -100%;
+    }
+    100%{
+        left: 100%;
+        top: 0%;
+    }
+}
+@keyframes slide5{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    12%{
+        left: 0;
+        top: 0;
+    }
+    16.67%{
+        left: -100%;
+        top: 0;
+    }
+    29%{
+        left: -100%;
+        top: 0;
+    }
+    33.34%{
+        left: -100%;
+        top: -100%;
+    }
+    46%{
+        left: -100%;
+        top: -100%;
+    }
+    50.01%{
+        left: 0;
+        top: -100%;
+    }
+    62%{
+        left: 0;
+        top: -100%;
+    }
+    66.68%{
+        left: 100%;
+        top: -100%;
+    }
+    79%{
+        left: 100%;
+        top: -100%;
+    }
+    83.35%{
+        left: 100%;
+        top: 0%;
+    }
+    96%{
+        left: 100%;
+        top: 0%;
+    }
+    100%{
+        left: 0;
+        top: 0%;
+    }
+}
+@keyframes slide6{
+    0%{
+        left: -100%;
+        top: 0%;
+    }
+    12%{
+        left: -100%;
+        top: 0%;
+    }
+    16.67%{
+        left: -100%;
+        top: -100%;
+    }
+    29%{
+        left: -100%;
+        top: -100%;
+    }
+    33.34%{
+        left: 0%;
+        top: -100%;
+    }
+    46%{
+        left: 0%;
+        top: -100%;
+    }
+    50.01%{
+        left: 100%;
+        top: -100%;
+    }
+    62%{
+        left: 100%;
+        top: -100%;
+    }
+    66.68%{
+        left: 100%;
+        top:0;
+    }
+    79%{
+        left: 100%;
+        top:0;
+    }
+    83.35%{
+        left: 0%;
+        top: 0;
+    }
+    96%{
+        left: 0%;
+        top: 0;
+    }
+    100%{
+        left: -100%;
+        top: 0;
+    }
+}
+
+
+
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+}
+.logo{
+    position:absolute;
+    width: 50%;
+    height: 90px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 5px;
+    border-bottom: ridge 5px greenyellow;
+    border-right: ridge 5px greenyellow;
+    box-shadow: 0 4px 4px 0;
+    background-image: linear-gradient(to bottom right, rgb(137, 252, 189) , rgb(221, 255, 71) );
+}
+#Logo{
+    margin-top: 5px;
+    margin-left: 40px;
+    float: left;
+    height: 80px;
+}
+#logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 80px;
+    float: left;
+    width: auto;
+}
+.logo:hover{
+    background-image: linear-gradient(to bottom right, rgb(83, 229, 255) , rgb(0, 255, 21) );
+    box-shadow: 0 6px 6px 0;
+    left: -3px;
+    top: -2px;
+}
+#bar{
+    position:absolute;
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    right: 0px;
+    transition:all .5s ease;
+    background:chartreuse;
+    padding-right: 30px;
+    padding-left: 20px;
+    top: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#home{
+    right:0;
+    top: 100px;
+    transition: all .5s ease;
+    display: none;
+}
+#home:checked ~ .header label #bar{
+    opacity:0;
+    right: -10px;
+}
+#home:checked ~ .header label #remove{
+    opacity:1;
+    right: -10px;
+}
+#home:checked ~ .side-bar{
+    left: 0px;
+}
+#remove{
+    position:absolute;
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    right: 0px;
+    transition:all .5s ease;
+    background: tomato;
+    padding-right: 30px;
+    padding-left: 20px;
+    top: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    opacity: 0;
+}
+
+
+.side-bar{
+    position:fixed;
+    top: 20%;
+    right: 100%;
+    cursor: pointer;
+    background-color:rgb(11, 4, 59);
+    height: 350px;
+    width: 22%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all 1s ease;
+    z-index: 997;
+}
+.side-bar nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:0;
+    z-index: 997;
+}
+.hid{
+    display: none;
+}
+#small-icon-1{
+    height: 50px;
+    width: 50px;
+    z-index: 997;
+    background-image: url(pics/Account.png);
+    background-size: cover;
+    background-position:center;
+}
+#small-icon-2{
+    height: 50px;
+    width: 50px;
+    background-image: url(pics/Contact.png);
+    background-size: cover;
+    background-position:center;
+    z-index: 997;
+}
+#homes1{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:springgreen;
+    position: relative;
+    z-index: 999;
+}
+#homes:checked ~.side-bar nav ul .animations{
+    top: 15px;
+    background-color:purple;
+    left: 0;
+}
+#homes1 i{
+    color:rgb(19, 206, 206);
+    padding-right: 40px;
+    padding-left: 5px;
+    font-size: 50px;
+    z-index: 999;
+    top: 3px;
+    position: relative;
+}
+#Collection i{
+    color:rgb(136, 0, 136);
+    padding-right: 35px;
+    top: 3px;
+    z-index: 999;
+    left: -7px;
+    font-size: 50px;
+    position: relative;
+}
+#Collection{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    left: 12px;
+    color:springgreen;
+    position: relative;
+    z-index: 999;
+}
+#collection:checked ~.side-bar nav ul .animations{
+    top: 90px;
+    background-color:teal;
+    left: 0;
+}
+.coolse{
+    top: 15px;
+    position: absolute;
+    left: 95px;
+}
+#account1{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:springgreen;
+    position: relative;
+    z-index: 999;
+}
+#account1 .acc{
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+
+#account:checked ~ .account-page{
+    clip-path: circle(141.4% at 100% 100%);
+}
+#small-icon{
+    float:left;
+    position:absolute;
+    left: 15px;
+}
+#account:checked ~.side-bar nav ul .animations{
+    top: 182px;
+    background-color:brown;
+    left: 0;
+}
+.side-bar #contact1{
+    padding-left: 10px;
+    padding-top: 15px;
+    top: 0px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:springgreen;
+    position: relative;
+    z-index: 999;
+}
+#contact1 .con{
+    position: absolute;
+    left: 110px;
+    top: 20px;
+}
+#contact:checked ~.side-bar nav ul .animations{
+    top: 265px;
+    left: 0;
+    background-color:rgb(40, 52, 163);
+}
+.animations{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    left: -100%;
+    top: auto;
+    transition: .5s ease all;
+}
+
+
+
+.background{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    z-index: -999;
+}
+.background figure .slide1{
+    height: 100%;
+    padding: 0;
+    left: -100%;
+    top: -100%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    animation: slide1 ease 80s infinite;
+}
+.background figure .slide2{
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    top: -100%;
+    overflow: hidden;
+    width: 100%;
+    animation: slide2 ease 80s infinite;
+}
+.background figure .slide3{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: -100%;
+    overflow: hidden;
+    left: 66.6666%;
+    animation: slide3 ease 80s infinite;
+}
+.background figure .slide4{
+    height: 100%;
+    width: 100%;
+    left: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    animation: slide4 ease 80s infinite;
+}
+.background figure .slide5{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    animation: slide5 ease 80s infinite;
+}
+.background figure .slide6{
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: -100%;
+    position: absolute;
+    overflow: hidden;
+    animation: slide6 ease 80s infinite;
+}
+.background figure{
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    overflow: hidden;
+}
+.background figure img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}

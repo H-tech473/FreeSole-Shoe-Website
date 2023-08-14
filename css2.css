@@ -1,0 +1,1109 @@
+@keyframes triangle1{
+    0%{
+        width: 0;
+    }
+    83.5%{
+        width: 0;
+    }
+    86%{
+        width: 400px;
+    }
+    92.25%{
+        width: 400px;
+    }
+    94.125%{
+        width: 0;
+    }
+    96%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+@keyframes square1{
+    0%{
+        left: -100%;
+    }
+    83.5%{
+        left: -100%;
+    }
+    87.875%{
+        left: 300px;
+    }
+    91.625%{
+        left: 300px;
+    }
+    96%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes line1{
+    0%{
+        width: 0;
+    }
+    83.5%{
+        width: 0;
+    }
+    86%{
+        width: 40%;
+    }
+    87.25%{
+        width: 40%;
+    }
+    89.75%{
+        width: 20%;
+    }
+    92.25%{
+        width: 40%;
+    }
+    93.5%{
+        width: 40%;
+    }
+    96%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+@keyframes text1{
+    0%{
+        left: -100%;
+    }
+    83.5%{
+        left: -100%;
+    }
+    85.375%{
+        left: 0;
+    }
+    93.5%{
+        left: 0;
+    }
+    95.375%{
+        left: -100%;
+    }
+    96%{
+        left: -100%
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes text2{
+    0%{
+        left: -100%;
+    }
+    83.5%{
+        left: -100%;
+    }
+    85.375%{
+        left: 250px;
+    }
+    93.5%{
+        left: 250px;
+    }
+    95.375%{
+        left: -100%;
+    }
+    96%{
+        left: -100%
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes box1{
+    0%{
+        left: -100%;
+    }
+    83.5%{
+        left: -100%;
+    }
+    87.25%{
+        left: 0%;
+    }
+    94.75%{
+        left: 0%;
+    }
+    96%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes line12{
+    0%{
+        width: 0;
+    }
+    66.63%{
+        width: 0;
+    }
+    69.094%{
+        width: 40%;
+    }
+    70.326%{
+        width: 40%;
+    }
+    72.79%{
+        width: 20%;
+    }
+    75.254%{
+        width: 40%;
+    }
+    76.486%{
+        width: 40%;
+    }
+    79%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+@keyframes text12{
+    0%{
+        left: -100%;
+    }
+    66.63%{
+        left: -100%;
+    }
+    68.478%{
+        left: 0;
+    }
+    76.486%{
+        left: 0;
+    }
+    78.334%{
+        left: -100%;
+    }
+    79%{
+        left: -100%
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes text22{
+    0%{
+        left: -100%;
+    }
+    66.63%{
+        left: -100%;
+    }
+    68.478%{
+        left: 250px;
+    }
+    76.486%{
+        left: 250px;
+    }
+    78.334%{
+        left: -100%;
+    }
+    79%{
+        left: -100%
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes box12{
+    0%{
+        left: -100%;
+    }
+    66.63%{
+        left: -100%;
+    }
+    70.326%{
+        left: 0%;
+    }
+    77.718%{
+        left: 0%;
+    }
+    79%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes text111{
+    0%{
+        left: -100%;
+    }
+    33.34%{
+        left: -100%;
+    }
+    34.606%{
+        left: -100%;
+    }
+    35.239%{
+        left: 20px;
+    }
+    44.101%{
+        left: 20px;
+    }
+    45.367%{
+        left: -100%;
+    }
+    46%{
+        left:-100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes text11{
+    0%{
+        left: -100%;
+    }
+    33.34%{
+        left: -100%;
+    }
+    34.606%{
+        left: -100%;
+    }
+    35.239%{
+        left: 30px;
+    }
+    44.101%{
+        left: 30px;
+    }
+    45.347%{
+        left: -100%;
+    }
+    46%{
+        left:-100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes boox{
+    0%{
+        height: 0;
+    }
+    33.34%{
+        height: 0;
+    }
+    34.606%{
+        height: 45%
+    }
+    36.505%{
+        height: 45%;
+    }
+    37.138%{
+        height: 0;
+    }
+    42.202%{
+        height: 0;
+    }
+    42.835%{
+        height: 45%;
+    }
+    45.667%{
+        height: 45%;
+    }
+    46%{
+        height: 0;
+    }
+    100%{
+        height: 0;
+    }
+}
+@keyframes box11{
+    0%{
+        left: -100%;
+    }
+    33.34%{
+        left: -100%
+    }
+    35.239%{
+        left: -100%;
+    }
+    36.505%{
+        left: 5px;
+    }
+    43.468%{
+        left: 5px;
+    }
+    45.367%{
+        left: -100%;
+    }
+    46%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes box212{
+    0%{
+        left: -100%;
+    }
+    33.34%{
+        left: -100%;
+    }
+    35.239%{
+        left: -100%;
+    }
+    36.505%{
+        left: 30px;
+    }
+    43.468%{
+        left: 30px;
+    }
+    45.7468%{
+        left: -100%;
+    }
+    46%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes text21{
+    0%{
+        right: -100%;
+    }
+    33.34%{
+        right: -100%;
+    }
+    34.606%{
+        right: -100%;
+    }
+    35.239%{
+        right: 30px;
+    }
+    44.101%{
+        right: 30px;
+    }
+    45.367%{
+        right: -100%;
+    }
+    46%{
+        right: -100%;
+    }
+    100%{
+        right: -100%;
+    }
+}
+@keyframes text212{
+    0%{
+        right: -100%;
+    }
+    33.34%{
+        right: -100%;
+    }
+    34.606%{
+        right: -100%;
+    }
+    35.239%{
+        right: 40px;
+    }
+    44.101%{
+        right: 40px;
+    }
+    45.347%{
+        right: -100%;
+    }
+    46%{
+        right: -100%;
+    }
+    100%{
+        right: -100%;
+    }
+}
+@keyframes box13{
+    0%{
+        right: -100%;
+    }
+    33.34%{
+        right: -100%;
+    }
+    35.239%{
+        right: -100%;
+    }
+    36.505%{
+        right: 15px;
+    }
+    43.468%{
+        right: 15px;
+    }
+    45.367%{
+        right: -100%;
+    }
+    46%{
+        right: -100%;
+    }
+    100%{
+        right: -100%;
+    }
+}
+@keyframes box14{
+    0%{
+        right: -100%;
+    }
+    33.34%{
+        right: -100%;
+    }
+    35.239%{
+        right: -100%;
+    }
+    36.505%{
+        right: 20px;
+    }
+    43.468%{
+        right: 20px;
+    }
+    45.367%{
+        right: -100%;
+    }
+    46%{
+        right: -100%;
+    }
+    100%{
+        right: -100%;
+    }
+}
+@keyframes circle1{
+    0%{
+        clip-path: circle(0.0% at 0 100%);
+    }
+    0.6%{
+        clip-path: circle(0.0% at 0 100%);
+    }
+    2.4%{
+        clip-path: circle(141.2% at 0 100%);
+    }
+    9.6%{
+        clip-path: circle(141.2% at 0 100%);
+    }
+    11.4%{
+        clip-path: circle(0.0% at 0 100%);
+    }
+    12%{
+        clip-path: circle(0.0% at 0 100%);
+    }
+    100%{
+        clip-path: circle(0.0% at 0 100%);
+    }
+}
+@keyframes slide-back{
+    0%{
+        left: -100%;
+    }
+    16.67%{
+        left: -100%;
+    }
+    19.136%{
+        left:10px;
+    }
+    26.534%{
+        left: 10px;
+    }
+    29%{
+        left: -100%;
+    }
+    100%{
+        left:-100%;
+    }
+}
+@keyframes slide-back1{
+    0%{
+        left: -100%;
+    }
+    16.67%{
+        left: -100%;
+    }
+    19.136%{
+        left:15px;
+    }
+    26.534%{
+        left: 15px;
+    }
+    29%{
+        left: -100%;
+    }
+    100%{
+        left:-100%;
+    }
+}
+@keyframes slide-back2{
+    0%{
+        width: 0;
+    }
+    16.67%{
+        width: 0;
+    }
+    18.5195%{
+        width: 50%;
+    }
+    26.534%{
+        width: 50%;
+    }
+    27.767%{
+        width: 0;
+    }
+    29%{
+        width: 0;
+    }
+    100%{
+        width:0%;
+    }
+}
+@keyframes fade1{
+    0%{
+        opacity: 0;
+    }
+    50.01%{
+        opacity: 0;
+    }
+    51.8085%{
+        opacity: 0;
+    }
+    53.0075%{
+        opacity: 1;
+    }
+    59.602%{
+        opacity: 1;
+    }
+    61.4005%{
+        opacity: 0;
+    }
+    62%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes box31{
+    0%{
+        left: -100%;
+    }
+    50.01%{
+        left: -100%;
+    }
+    51.8085%{
+        left: -100%;
+    }
+    53.0075%{
+        left: 0;
+    }
+    59.602%{
+        left: 0;
+    }
+    61.4005%{
+        left: -100%;
+    }
+    62%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes box32{
+    0%{
+        right: -100%;
+    }
+    50.01%{
+        right: -100%;
+    }
+    51.8085%{
+        right: -100%;
+    }
+    53.0075%{
+        right: 0;
+    }
+    59.602%{
+        right: 0;
+    }
+    61.4005%{
+        right: -100%;
+    }
+    62%{
+        right: -100%;
+    }
+    100%{
+        right: -100%;
+    }
+}
+@keyframes box33{
+    0%{
+        top: -100%;
+    }
+    50.01%{
+        top: -100%;
+    }
+    51.8085%{
+        top: -100%;
+    }
+    53.0075%{
+        top: 0;
+    }
+    59.602%{
+        top: 0;
+    }
+    61.4005%{
+        top: -100%;
+    }
+    62%{
+        top: -100%;
+    }
+    100%{
+        top: -100%;
+    }
+}
+@keyframes box34{
+    0%{
+        bottom: -100%;
+    }
+    50.01%{
+        bottom: -100%;
+    }
+    51.8085%{
+        bottom: -100%;
+    }
+    53.0075%{
+        bottom: 0;
+    }
+    59.602%{
+        bottom: 0;
+    }
+    61.4005%{
+        bottom: -100%;
+    }
+    62%{
+        bottom: -100%;
+    }
+    100%{
+        bottom: -100%;
+    }
+}
+
+
+
+
+.animation-box{
+    top: 100px;
+    position: fixed;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    height: 500px;
+    overflow: hidden;
+    width: 800px;
+    left: 200px;
+}
+.animation-box .text-box{
+    top: 200px;
+    position: relative;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    height: 500px;
+    width: 800px;
+    animation: text1 ease infinite 80s;
+    line-height: 30px;
+}
+.animation-box .text-box b{
+    font-size: 120px;
+}
+.animation-box .text-box-lase{
+    position: relative;
+    top: -230px;
+    height: 50%;
+    width: 100%;
+    animation: text2 infinite 80s ease;
+    font-size: 15px;
+    color:rgb(26, 11, 66);
+}
+.animation-box .line-box{
+    background-color: rgb(20, 199, 59);
+    position: absolute;
+    height: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    animation: 80s line1 infinite ease;
+    top: 142px;
+    z-index: -1;
+    opacity: .9;
+}
+.animation-box .triangle-box{
+    height: 200px;
+    width: 0px;
+    top: 150px;
+    clip-path: polygon(100% 64%, 15% 1%, 0 100%);
+    background-color: green;
+    animation: triangle1 80s ease infinite;
+    opacity: .5;
+    z-index: -2;
+    position: absolute;
+}
+.animation-box .square-box{
+    height: 150px;
+    top: 200px;
+    width: 150px;
+    position: absolute;
+    left: 0%;
+    z-index: -2;
+    background-color: greenyellow;
+    opacity: .4;
+    transition: all .5s ease;
+    animation: square1 80s ease infinite;
+}
+
+.text-booox{
+    height: 300px;
+    width: 700px;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+}
+.text-booox .teoo1 b{
+    font-size: 120px;
+}
+.text-booox .teoo1{
+    position: absolute;
+    font-size: 40px;
+    animation: text12 80s ease infinite;
+    font-family: 'Passion One', cursive;
+}
+.text-booox .teoo2{
+    position: relative;
+    top: 110px;
+    left: -100%;
+    animation: text22 80s ease infinite;
+    animation-delay: 1s;
+    font-family: 'Orbitron', sans-serif;
+}
+.text-booox .tooop{
+    width: 100px;
+    position: absolute;
+    height: 10px;
+    background-color: greenyellow;
+    top: 10px;
+    animation: line12 80s ease infinite;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.text-booox .booox{
+    width: 50%;
+    position: absolute;
+    animation: box12 80s ease infinite;
+    height: 60%;
+    top: 5px;
+    clip-path: polygon(0 11%, 36% 0, 96% 84%, 0% 100%);
+    background-color: rgb(12, 250, 238);
+}
+
+.text1{
+    height: 380px;
+    width: 700px;
+    top: 200px;
+    left: 80px;
+    position: fixed;
+    overflow: hidden;
+}
+.text-box1{
+    top: 5%;
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    overflow: hidden;
+}
+.text1 .text-box1 .text11 b{
+    font-size: 90px;
+}
+.text1 .text-box1 .text11{
+    position: absolute;
+    font-family: 'Carter One', cursive;
+    font-size: 40px;
+    animation: text111 80s ease infinite;
+    z-index: 1;
+}
+.text1 .text-box1 .text12{
+    position: relative;
+    top: 110px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    animation-delay: 1s;
+    left: -100%;
+    font-size: 20px;
+    line-height: 5px;
+    animation: text11 80s ease infinite;
+    animation-delay: 1s;
+    z-index: 1;
+}
+.box12{
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 4px 4px 0;
+    border-radius: 5px;
+    width: 13px;
+    top: 15px;
+    animation: boox 80s ease infinite;
+    background-color:indigo;
+}
+.box21{
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    animation: box11 80s ease infinite;
+    top: 20px;
+    background-color:yellowgreen;
+    opacity: .6;
+}
+.box22{
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    top: 30px;
+    animation: box212 80s ease infinite;
+    background-color:yellow;
+    opacity: .4;
+}
+.text-box2{
+    top: 50%;
+    right: 0px;
+    position: absolute;
+    width: 500px;
+    overflow: hidden;
+    height: 130px;
+}
+.text1 .text-box2 .text13 b{
+    font-size: 90px;
+}
+.text1 .text-box2 .text13{
+    position: absolute;
+    font-family: 'Carter One', cursive;
+    font-size: 40px;
+    animation: text21 80s ease infinite;
+    z-index: 1;
+    text-align: right;
+}
+.text1 .text-box2 .text14{
+    position: relative;
+    z-index: 1;
+    top: 110px;
+    right: -100%;
+    animation: text212 80s ease infinite;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    animation-delay: 1s;
+    text-align: right;
+    font-size: 20px;
+    line-height: 15px;
+}
+.box13{
+    position: absolute;
+    height: 0;
+    right: 0px;
+    top: 50%;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 5px;
+    width: 13px;
+    animation: boox 80s ease infinite;
+    background-color:rgb(24, 2, 150);
+}
+.creative{
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    clip-path: polygon(0 0, 100% 49%, 100% 78%, 0 100%, 0 100%, 0% 50%);
+    background-color:cyan;
+    opacity: .6;
+    animation: box13 ease 80s infinite;
+}
+.creative1{
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    clip-path: polygon(0 33%, 100% 9%, 100% 83%, 0 62%, 0% 50%);
+    background-color:rgb(9, 0, 139);
+    opacity: .4;
+    animation: box14 ease 80s infinite;
+}
+
+.text-pink{
+    height: 200px;
+    width: 590px;
+    top: 300px;
+    left: 650px;
+    position: fixed;
+    overflow: hidden;
+}
+.text-pink .circle{
+    height: 80%;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 8px;
+    opacity: .8;
+    background-color: rgb(43, 183, 226);
+    position: absolute;
+    animation: circle1 ease 80s infinite;
+    top: 20px;
+}
+.text-pink .circle .text41 b{
+    font-size: 120px;
+    left: -5px;
+}
+.text-pink .circle .text41{
+    font-family: 'Cinzel', serif;
+    font-size:25px;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+}
+.text-pink .circle .text41 span{
+    position:relative;
+    left: -15px;
+}
+.text-pink .circle .text42{
+    font-family: 'Kavivanar', cursive;
+    font-size:10px;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+}
+
+.fir{
+    height: 400px;
+    width: 300px;
+    position: fixed;
+    overflow: hidden;
+    top: 200px;
+    left: 950px;
+}
+.sec{
+    background-color: rgba(50, 47, 255, 0.692);
+    height: 10px;
+    top:30%;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 0px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    opacity: .6;
+    z-index: 2;
+    animation: slide-back2 80s infinite ease;
+}
+#fir{
+    font-size: 50px;
+    color:aqua;
+    top: -10px;
+    z-index: 1;
+    font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    display: block;
+    animation: slide-back 80s infinite ease;
+}
+#fir b{
+    font-size: 150px;
+}
+.fir1{
+    font-size: 15px;
+    color:rgb(12, 250, 238);
+    top: 135px;
+    z-index: 1;
+    font-family: 'Bad Script', cursive;
+    position: absolute;
+    animation: slide-back1 80s ease infinite;
+}
+
+.text3{
+    height: 200px;
+    width: 590px;
+    top: 300px;
+    left: 100px;
+    position: fixed;
+    overflow: hidden;
+}
+.text3 .te13 b{
+    font-size: 120px;
+}
+.text3 .te13{
+    position: absolute;
+    top: -28%;
+    left: 20px;
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    animation: fade1 80s infinite ease;
+}
+.text3 .te23{
+    position: relative;
+    left: 30px;
+    top: 75%;
+    color:rgb(12, 250, 238);
+    animation-delay: 1s;
+    animation: fade1 80s infinite ease;
+    font-family: 'Armata', sans-serif;
+}
+.text3 .top3{
+    width: 40%;
+    position: absolute;
+    height: 10px;
+    background-color: greenyellow;
+    top: 0px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    animation: box31 ease infinite 80s;
+}
+.text3 .side3{
+    width: 10px;
+    position: absolute;
+    animation: box33 80s ease infinite;
+    height: 30%;
+    background-color: greenyellow;
+    top: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.text3 .side33{
+    width: 10px;
+    position: absolute;
+    height: 30%;
+    background-color: greenyellow;
+    bottom: 0;
+    right: 0;
+    animation: box34 ease 80s infinite;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.text3 .bottom3{
+    width: 40%;
+    position: absolute;
+    height: 10px;
+    animation: box32 ease 80s infinite;
+    background-color: greenyellow;
+    bottom: 0;
+    right:0;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.text3 .box3{
+    width: 100%;
+    position: absolute;
+    animation: fade1 80s infinite ease;
+    height: 200px;
+    clip-path: polygon(49% 34%, 66% 49%, 100% 3%, 100% 85%, 50% 75%, 30% 55%, 0% 70%, 0 26%, 14% 49%);
+    top: 5px;
+    background-color: rgb(12, 250, 238);
+}

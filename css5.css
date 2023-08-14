@@ -1,0 +1,202 @@
+.account-page{
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    top:150px;
+    z-index: 999;
+    border-radius: 30px;
+    clip-path: circle(0.0% at 100% 100%);
+    right: 0;
+    overflow: hidden;
+    transition: 1s ease;
+    opacity: .85;
+    background-color: black;
+}
+.account-page form{
+    background-color: burlywood;
+    top: 60px;
+    width: auto;
+    left: 9%;
+    z-index: 999;
+    position:absolute;
+    padding-top: 60px;
+}
+.account-page input{
+    opacity: .8;
+    outline:none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    z-index: 999;
+    border-bottom: oldlace 1px solid;
+    transition: .3s ease all;
+    position:absolute;
+    color: chartreuse;
+    background-color: black;
+}
+.account-page input::placeholder{
+    transition: .3s ease all;
+    font-weight: lighter;
+    color: white;
+}
+.account-page input:focus::placeholder{
+    color:chartreuse;
+    font-weight: bold;
+    font-size: 20px;
+}
+.account-page input:focus{
+    opacity: 1;
+    border-bottom:chartreuse 2px solid;
+}
+.account-page #Name{
+    width: 200px;
+    height: 25px;
+    z-index: 999;
+    top: 40px;
+}
+.account-page #Name:focus{
+    width: 250px;
+}
+.account-page #Email{
+    width: 200px;
+    height: 25px;
+    z-index: 999;
+    top: 84px;
+    position:absolute
+}
+.account-page #Email:focus{
+    width: 250px;
+}
+.account-page #Phone{
+    width: 200px;
+    height: 25px;
+    z-index: 999;
+    top: 128px;
+    position:absolute
+}
+.account-page #Phone:focus{
+    width: 250px;
+}
+.account-page #gender{
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+    z-index: 999;
+    color:white;
+    top: 170px;
+    left: 4px;
+    position:absolute
+}
+.account-page #gender-m{
+    top: 200px;
+    left: 0;
+    display:none;
+    position:absolute
+}
+.account-page #gender-m-l{
+    top: 199px;
+    font-size: 20px;
+    left: 25px;
+    z-index: 999;
+    cursor: pointer;
+    color:white;
+    transition: .3s all;
+    position:absolute
+}
+.account-page #gender-m-l i{
+    top: 0px;
+    left: -35px;
+    z-index: 999;
+    position:absolute;
+    color: lightblue;
+}
+.account-page #gender-m-l:hover{
+    font-size: 30px;
+    top: 192px;
+    color:chartreuse;
+}
+.account-page #gender-f:checked ~ #gender-f-l{
+    color: chartreuse;
+}
+.account-page #gender-m:checked ~ #gender-m-l{
+    color: chartreuse;
+}
+.account-page #gender-f{
+    top: 200px;
+    display:none;
+    left: 110px;
+    position:absolute
+}
+.account-page #gender-f-l:hover{
+    font-size: 30px;
+    color:chartreuse;
+    top: 192px;
+}
+.account-page #gender-f-l{
+    top: 199px;
+    font-size: 20px;
+    transition: .3s all;
+    z-index: 999;
+    cursor:pointer;
+    color: white;
+    left: 135px;
+    position:absolute
+}
+.account-page #gender-f-l i{
+    top: 0px;
+    left: -35px;
+    z-index: 999;
+    color: pink;
+    position:absolute
+}
+.account-page #password{
+    position: absolute;
+    top: 240px;
+    width: 200px;
+    z-index: 999;
+    border: none;
+    height: 25px;
+    border-bottom: oldlace 1px solid;
+    transition: .3s ease;
+}
+.account-page #password:focus{
+    width: 250px;
+    border-bottom: chartreuse 2px solid;
+    transition: .3s ease;
+}
+.account-page #submit{
+    width: 230px;
+    height: 50px;
+    font-weight: bold;
+    z-index: 999;
+    border-radius: 30px;
+    border: 3px white solid;
+    background-color: red;
+    transition: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    top: 280px;
+    left: -15px;
+    position:absolute;
+}
+.account-page #submit:hover{
+    border: 3px chartreuse solid;
+    color: chartreuse;
+    background-color: darkred;
+}
+.account-page .img{
+    position: absolute;
+    height: 200px;
+    z-index: 999;
+    width: 200px;
+    left: 350px;
+    top: 60px;
+    background-image: url(pics/Logo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home:not(:checked)~.account-page{
+    opacity: 0;
+}
